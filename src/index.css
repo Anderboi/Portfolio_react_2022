@@ -1,4 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --color-bg: #010103;
+  --color-bg-variant: #0e0e2a;
+  --color-primary: #20e4b2;
+  --color-primary-variant: #17bb91;
+  --color-light: #a4f4e0;
+  --color-white: #e8fcf7;
+
+  /*! reddish */
+  /* --color-bg: #2c1f1d;
+  --color-bg-variant: #655C5D;
+  --color-primary: #ad3d41;
+  --color-primary-variant: #BF6E73;
+  --color-light: #D6B2A5;
+  --color-white: #fffefa; */
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --transition: all 400ms ease;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
-  background-color: black;
-  color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  font-size: 1.6rem;
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+.section {
+  height: 100vh;
+  margin-top: 8rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.subheader {
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+.link {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+.link:hover {
+  color: var(--color-white);
+}
+
+.btn {
+  font-weight: 500;
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.6rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: var(--transition);
+  border: 1px solid var(--color-primary);
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+/* TODO: make BEM */
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*? Tablets */
+
+@media screen and (max-width: 1024px) {
+  .contsiner {
+    width: var(--container-width-md);
+  }
+
+  .section {
+    margin-top: 6rem;
+  }
+}
+
+/*? Mobiles */
+
+@media screen and (max-width: 600px) {
+  .contsiner {
+    width: var(--container-width-sm);
+  }
+
+  .section {
+    margin-bottom: 2rem;
+  }
 }

@@ -1,0 +1,35 @@
+.nav {
+  background: rgba(121, 121, 121, 0.3);
+  width: max-content;
+  /* display: block; */
+  padding: 1rem 1.6rem;
+  position: fixed;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 2rem;
+  border-radius: 5rem;
+  backdrop-filter: blur(15px);
+}
+
+.nav__item {
+  background: transparent;
+  line-height: 0.8em;
+  padding: 1.4rem;
+  font-size: 2.4rem;
+  color: var(--color-light);
+}
+
+.nav__item:hover {
+  background: rgba(175, 175, 175, 0.3);
+  border-radius: 5rem;
+}
+
+.nav__item_active {
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  border-radius: 5rem;
+
+}
