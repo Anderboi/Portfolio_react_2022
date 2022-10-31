@@ -1,7 +1,6 @@
 .nav {
-  background: rgba(121, 121, 121, 0.3);
+  background: rgba(28, 28, 28, 0.3);
   width: max-content;
-  /* display: block; */
   padding: 1rem 1.6rem;
   position: fixed;
   z-index: 2;
@@ -32,4 +31,10 @@
   color: var(--color-primary);
   border-radius: 5rem;
 
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    gap: 1rem;
+  }
 }

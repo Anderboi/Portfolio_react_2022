@@ -1,6 +1,6 @@
 .header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 2rem;
   overflow: hidden;
 }
 
@@ -13,7 +13,7 @@
 .person {
   background: linear-gradient(var(--color-primary), transparent);
   width: 40rem;
-  height: 60rem;
+  height: 67rem;
   overflow: hidden;
   position: absolute;
   left: calc(50% - 20rem);
@@ -41,6 +41,7 @@
   left: 0;
   bottom: 3rem;
   z-index: 99;
+  font-size: 2rem;
 }
 
 .header__socials::after {
@@ -83,5 +84,10 @@
   .person {
     width: 34rem;
   left: calc(50% - 17rem);
+  }
+
+  .header__name {
+    line-height: 1em;
+    margin: 1.6rem 0 2.6rem;
   }
 }

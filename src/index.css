@@ -12,7 +12,7 @@
 
 :root {
   --color-bg: #010103;
-  --color-bg-variant: #0e0e2a;
+  --color-bg-variant: #031712;
   --color-primary: #20e4b2;
   --color-primary-variant: #17bb91;
   --color-light: #a4f4e0;
@@ -52,21 +52,33 @@ body {
 
 .container {
   width: var(--container-width-lg);
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 .section {
-  height: 100vh;
+  /* height: 100vh; */
   margin-top: 8rem;
 }
 
 h1 {
   font-size: 4rem;
 }
+h2 {
+  font-size: 3rem;
+}
+h5 {
+  font-size: 1.4rem;
+}
 
 .subheader {
   text-align: center;
   color: var(--color-primary);
+}
+
+.sub-subheader {
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--color-light);
 }
 
 .text-light {
@@ -114,7 +126,7 @@ img {
 /*? Tablets */
 
 @media screen and (max-width: 1024px) {
-  .contsiner {
+  .container {
     width: var(--container-width-md);
   }
 
@@ -126,7 +138,7 @@ img {
 /*? Mobiles */
 
 @media screen and (max-width: 600px) {
-  .contsiner {
+  .container {
     width: var(--container-width-sm);
   }
 
