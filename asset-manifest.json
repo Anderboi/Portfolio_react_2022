@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio_react_2022/static/css/main.7194128e.css",
+    "main.js": "/Portfolio_react_2022/static/js/main.19515f70.js",
+    "static/media/CV_Upolovnev_A.pdf": "/Portfolio_react_2022/static/media/CV_Upolovnev_A.d1e13946c594548a4ba9.pdf",
+    "static/media/portrait.png": "/Portfolio_react_2022/static/media/portrait.10ee68bd430777416944.png",
+    "static/media/Andrei.png": "/Portfolio_react_2022/static/media/Andrei.55d2856b16928eaefc77.png",
+    "static/media/social_media.jpg": "/Portfolio_react_2022/static/media/social_media.4f81836e066f41765bb5.jpg",
+    "static/media/controla01.jpg": "/Portfolio_react_2022/static/media/controla01.2360acd8b59d2a8b26b9.jpg",
+    "static/media/todo01.jpg": "/Portfolio_react_2022/static/media/todo01.708b1764f163bc35950e.jpg",
+    "index.html": "/Portfolio_react_2022/index.html",
+    "main.7194128e.css.map": "/Portfolio_react_2022/static/css/main.7194128e.css.map",
+    "main.19515f70.js.map": "/Portfolio_react_2022/static/js/main.19515f70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7194128e.css",
+    "static/js/main.19515f70.js"
+  ]
+}
