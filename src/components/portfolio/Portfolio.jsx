@@ -11,8 +11,10 @@ const projects = [
     title: "ControlApp",
     github: "https://github.com/Anderboi/controla-notnext",
     link: "https://anderboi.github.io/controla-notnext/#/projects",
-    description:
+    description_ru:
       "Приложение авторского надзора. Пэт-проект, ведения журнала авторского надзора для архитекторов / дизайнеров. Делается на React, с применением Firebase (авторизация, база данных), TS, MUI, React hook forms.",
+    description:
+      "Application of author's supervision. Pet Project, maintaining a journal of author's supervision for architects / designers. It is done in React, using Firebase (authorization, database), TS, MUI, React hook forms.",
   },
   {
     id: 2,
@@ -20,8 +22,10 @@ const projects = [
     title: "ToDoApp on js",
     github: "https://github.com/Anderboi/mb-todo-app",
     link: "https://anderboi.github.io/mb-todo-app/",
-    description:
+    description_ru:
       "ToDo приложение, сделанное как тестовое задание для MindBox, по ТЗ и макету. Сделано на React, с применением typescript, classnames(npm) и добавлением небольшого количества тестов.",
+    description:
+      "ToDo application, made as a test task for MindBox, on specification and layout. Made in React, using typescript, classnames(npm) and adding a small number of tests.",
   },
   {
     id: 3,
@@ -29,8 +33,10 @@ const projects = [
     title: "'Samurai' social network",
     github: "https://github.com/Anderboi/react_social",
     link: "https://anderboi.github.io/react_social/",
-    description:
+    description_ru:
       "Учебный проект по React. Небольшая социальная сеть. Функционал не весь, но больше чем в самом курсе.Сам дописывал логику добавления друзей, обмена сообщениями.",
+    description:
+      "React training project. A small social network. The functionality is not all, but more than in the course itself. I implemented the logic of adding friends and messaging.",
   },
 ];
 
