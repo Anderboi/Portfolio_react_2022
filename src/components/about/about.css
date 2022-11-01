@@ -31,7 +31,7 @@
 
 .about__content__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .about__card__icon {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--color-primary);
   margin-bottom: 1rem;
 }
@@ -66,6 +66,7 @@
   font-weight: 300;
   margin: 2rem 0 2.6rem;
   color: var(--color-white);
+  line-height: 1.4em;
 }
 
 /*? Tablets */
@@ -94,7 +95,7 @@
   }
 
   .about__content__text {
-    margin: 1rem 1rem 1.5rem;
+    margin: 3rem 1rem 3rem;
   }
 
   .about__content__cards {

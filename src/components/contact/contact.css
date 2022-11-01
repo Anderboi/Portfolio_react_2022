@@ -53,7 +53,14 @@
 }
 
 .contact__form__input::placeholder {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-family);
+}
+
+.contact__form__btn {
+  font-weight: 500;
+  width: max-content;
+  font-size: 1.6rem;
+  font-family: var(--font-family);
 }
 
 /*? Tablets */

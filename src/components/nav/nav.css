@@ -36,4 +36,8 @@
   .nav {
     gap: 1rem;
   }
+  .nav__item:hover {
+    background: var(--color-primary);
+    border-radius: 5rem;
+  }
 }

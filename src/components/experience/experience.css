@@ -62,10 +62,14 @@
   .skills {
     grid-template-columns: 1fr;
     gap: 2rem;
+    font-size: 1.4em;
   }
 
   .experience__frontend  {
     width: 100%;
     padding: 2rem;
+  }
+  .skills__item__icon {
+    font-size: 2em;
   }
 }

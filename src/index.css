@@ -31,6 +31,8 @@
   --container-width-sm: 90%;
 
   --transition: all 400ms ease;
+
+  --font-family:  "Montserrat", sans-serif;
 }
 
 html {
@@ -43,7 +45,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-family);
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
