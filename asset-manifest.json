@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio_react_2022/static/css/main.a245432e.css",
-    "main.js": "/Portfolio_react_2022/static/js/main.1e2889b2.js",
-    "static/media/CV_Upolovnev_A.pdf": "/Portfolio_react_2022/static/media/CV_Upolovnev_A.d1e13946c594548a4ba9.pdf",
+    "main.js": "/Portfolio_react_2022/static/js/main.5a9952d1.js",
+    "static/media/CV - EN.pdf": "/Portfolio_react_2022/static/media/CV - EN.d044bb1aa2bba941b090.pdf",
+    "static/media/CV - RU.pdf": "/Portfolio_react_2022/static/media/CV - RU.97399c49b4c92749ae1f.pdf",
     "static/media/portrait.png": "/Portfolio_react_2022/static/media/portrait.10ee68bd430777416944.png",
     "static/media/Andrei.png": "/Portfolio_react_2022/static/media/Andrei.55d2856b16928eaefc77.png",
     "static/media/social_media.jpg": "/Portfolio_react_2022/static/media/social_media.4f81836e066f41765bb5.jpg",
@@ -10,10 +11,10 @@
     "static/media/todo01.jpg": "/Portfolio_react_2022/static/media/todo01.708b1764f163bc35950e.jpg",
     "index.html": "/Portfolio_react_2022/index.html",
     "main.a245432e.css.map": "/Portfolio_react_2022/static/css/main.a245432e.css.map",
-    "main.1e2889b2.js.map": "/Portfolio_react_2022/static/js/main.1e2889b2.js.map"
+    "main.5a9952d1.js.map": "/Portfolio_react_2022/static/js/main.5a9952d1.js.map"
   },
   "entrypoints": [
     "static/css/main.a245432e.css",
-    "static/js/main.1e2889b2.js"
+    "static/js/main.5a9952d1.js"
   ]
 }
