@@ -57,10 +57,9 @@
 }
 
 .contact__form__btn {
-  font-weight: 500;
-  width: max-content;
   font-size: 1.6rem;
   font-family: var(--font-family);
+  line-height: 2em;
 }
 
 /*? Tablets */
