@@ -1,10 +1,35 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { SiWhatsapp } from "react-icons/si";
 import { FaTelegramPlane } from "react-icons/fa";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    e.target.reset();
+  };
+
   return (
     <section id="contacts" className="section">
       <h5 className="sub-subheader">Get In Touch</h5>
@@ -50,7 +75,7 @@ const Contact = () => {
           </article>
         </div>
         {/* contacts__options */}
-        <form className="contact__form" action="">
+        <form className="contact__form" ref={form} onSubmit={sendEmail}>
           <input
             className="contact__form__input"
             type="text"

@@ -27,10 +27,9 @@
 }
 
 .nav__item_active {
-  background-color: var(--color-bg);
-  color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-bg);
   border-radius: 5rem;
-
 }
 
 @media screen and (max-width: 600px) {

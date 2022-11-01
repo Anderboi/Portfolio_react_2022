@@ -58,12 +58,14 @@
 
 .about__card__small {
   font-size: 1.2rem;
+  line-height: 1em;
   color: var(--color-light);
 }
 
 .about__content__text {
+  font-weight: 300;
   margin: 2rem 0 2.6rem;
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 /*? Tablets */
