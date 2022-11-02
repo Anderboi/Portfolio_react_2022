@@ -26,11 +26,11 @@
   border-radius: 5rem;
 }
 
-.nav__item_active {
+/* .nav__item_active {
   background-color: var(--color-primary);
   color: var(--color-bg);
   border-radius: 5rem;
-}
+} */
 
 .active {
   background-color: var(--color-primary);
@@ -42,6 +42,13 @@
   .nav {
     gap: 1rem;
   }
+
+  .active {
+    background-color: transparent;
+    color: var(--color-bg);
+    border-radius: 5rem;
+  }
+
   .nav__item:hover {
     background: var(--color-primary);
     border-radius: 5rem;
