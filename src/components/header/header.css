@@ -13,7 +13,7 @@
 .person {
   background: linear-gradient(var(--color-primary), transparent);
   width: 40rem;
-  height: 70rem;
+  height: 65rem;
   overflow: hidden;
   position: absolute;
   left: calc(50% - 20rem);
