@@ -21,36 +21,22 @@
   color: var(--color-light);
 }
 
-.nav__item:hover {
-  background: rgba(175, 175, 175, 0.3);
-  border-radius: 5rem;
-}
-
-/* .nav__item_active {
-  background-color: var(--color-primary);
-  color: var(--color-bg);
-  border-radius: 5rem;
-} */
-
 .active {
   background-color: var(--color-primary);
   color: var(--color-bg);
   border-radius: 5rem;
 }
 
+@media (hover: hover) {
+
+  .nav__item:hover {
+    background: rgba(175, 175, 175, 0.3);
+    border-radius: 5rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .nav {
     gap: 1rem;
-  }
-
-  .active {
-    background-color: transparent;
-    color: var(--color-bg);
-    border-radius: 5rem;
-  }
-
-  .nav__item:hover {
-    background: var(--color-primary);
-    border-radius: 5rem;
   }
 }

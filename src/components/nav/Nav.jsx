@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./nav.css";
 import {
   BiHomeAlt,
@@ -7,15 +7,14 @@ import {
   BiChat,
   BiGitRepoForked,
 } from "react-icons/bi";
-// import classnames from "classnames";
 import { Link } from "react-scroll";
 
 const Nav = () => {
-  // const [activeNav, setActiveNav] = useState("#");
 
   return (
     <nav className="nav">
       <Link 
+      tabIndex={1}
         className="nav__item" 
         activeClass="active" 
         spy={true}
@@ -24,6 +23,7 @@ const Nav = () => {
         <BiHomeAlt />
       </Link>
       <Link
+      tabIndex={2}
         className="nav__item"
         activeClass="active"
         spy={true}
@@ -32,6 +32,7 @@ const Nav = () => {
         <BiUser />
       </Link>
       <Link
+      tabIndex={3}
         className="nav__item"
         activeClass="active"
         spy={true}
@@ -40,6 +41,7 @@ const Nav = () => {
         <BiBook />
       </Link>
       <Link
+      tabIndex={4}
         className="nav__item"
         activeClass="active"
         spy={true}
@@ -48,6 +50,7 @@ const Nav = () => {
         <BiGitRepoForked />
       </Link>
       <Link
+      tabIndex={5}
         className="nav__item"
         activeClass="active"
         spy={true}
@@ -55,56 +58,6 @@ const Nav = () => {
       >
         <BiChat />
       </Link>
-
-      {/* <a
-            className={classnames("nav__item", {
-              nav__item_active: activeNav === "#",
-            })}
-            href="#"
-            onClick={() => setActiveNav("#")}
-          >
-            <BiHomeAlt />
-          </a> */}
-
-      {/* <a
-            className={classnames("nav__item", {
-              nav__item_active: activeNav === "#about",
-            })}
-            href="#about"
-            onClick={() => setActiveNav("#about")}
-          >
-            <BiUser />
-          </a> */}
-
-      {/* <a
-            className={classnames("nav__item", {
-              nav__item_active: activeNav === "#experience",
-            })}
-            href="#experience"
-            onClick={() => setActiveNav("#experience")}
-          >
-            <BiBook />
-          </a> */}
-
-      {/* <a
-            className={classnames("nav__item", {
-              nav__item_active: activeNav === "#portfolio",
-            })}
-            href="#portfolio"
-            onClick={() => setActiveNav("#portfolio")}
-          >
-            <BiGitRepoForked />
-          </a> */}
-
-      {/* <a
-            className={classnames("nav__item", {
-              nav__item_active: activeNav === "#contacts",
-            })}
-            href="#contacts"
-            onClick={() => setActiveNav("#contacts")}
-          >
-            <BiChat />
-          </a> */}
     </nav>
   );
 };
