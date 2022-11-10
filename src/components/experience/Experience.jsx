@@ -10,6 +10,7 @@ import {
   SiJavascript,
   SiFigma,
   SiAdobephotoshop,
+  SiFirebase,
 } from "react-icons/si";
 
 const Experience = () => {
@@ -72,10 +73,17 @@ const Experience = () => {
               </div>
             </article>
             <article className="skills__item">
+              <SiFirebase className="skills__item__icon" />
+              <div className="skills__item__desc">
+                <h4>Firebase</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="skills__item">
               <SiFigma className="skills__item__icon" />
               <div className="skills__item__desc">
                 <h4>Figma</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="skills__item">

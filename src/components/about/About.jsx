@@ -34,6 +34,7 @@ const About = () => {
           <p className="about__content__text">
             My goal is to become a frontend developer as soon as possible, to
             work remotely and enjoy my activities. <br />
+            And of course, save the planet and so on.<br/>
             <br />
             <strong>Strengths:</strong> perseverance, stress resistance, focus
             on results. <br />
