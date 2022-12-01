@@ -18,14 +18,6 @@
   --color-light: #a4f4e0;
   --color-white: #e8fcf7;
 
-  /*! reddish */
-  /* --color-bg: #2c1f1d;
-  --color-bg-variant: #655C5D;
-  --color-primary: #ad3d41;
-  --color-primary-variant: #BF6E73;
-  --color-light: #D6B2A5;
-  --color-white: #fffefa; */
-
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
@@ -58,7 +50,6 @@ body {
 }
 
 .section {
-  /* height: 100vh; */
   margin-top: 8rem;
 }
 

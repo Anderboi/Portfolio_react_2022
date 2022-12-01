@@ -16,7 +16,7 @@ const projects = [
       'TS',
       'React',
       'Redux',
-      'Formik',
+      'React Hook Form',
       'MUI',
       'Firebase',
     ],
@@ -31,7 +31,7 @@ const projects = [
   {
     id: 2,
     image: PIMG02,
-    stack: [],
+    stack: ['HTML', 'CSS', 'JS', 'TS', 'React'],
     title: 'ToDoApp on js',
     github: 'https://github.com/Anderboi/mb-todo-app',
     link: 'https://anderboi.github.io/mb-todo-app/',
@@ -43,7 +43,7 @@ const projects = [
   {
     id: 3,
     image: PIMG03,
-    stack: [],
+    stack: ['HTML', 'CSS', 'JS', 'TS', 'React', 'Redux', 'Ajax'],
     title: "'Samurai' social network",
     github: 'https://github.com/Anderboi/react_social',
     link: 'https://anderboi.github.io/react_social/',
@@ -51,6 +51,30 @@ const projects = [
       'Учебный проект по React. Небольшая социальная сеть. Функционал не весь, но больше чем в самом курсе.Сам дописывал логику добавления друзей, обмена сообщениями.',
     description:
       'React training project. A small social network. The functionality is not all, but more than in the course itself. I implemented the logic of adding friends and messaging.',
+  },
+  {
+    id: 4,
+    image: PIMG03,
+    stack: ['HTML', 'CSS', 'JS', 'TS', 'React', 'Redux', 'Ajax'],
+    title: "'Samurai' social network",
+    github: 'https://github.com/Anderboi/react_social',
+    link: 'https://anderboi.github.io/react_social/',
+    description_ru:
+      'Учебный проект по React. Небольшая социальная сеть. Функционал не весь, но больше чем в самом курсе.Сам дописывал логику добавления друзей, обмена сообщениями.',
+    description:
+      'React training project. A small social network. The functionality is not all, but more than in the course itself. I implemented the logic of adding friends and messaging.',
+  },
+  {
+    id: 5,
+    image: PIMG03,
+    stack: ['HTML', 'CSS / SCSS'],
+    title: "CSS Crash Course",
+    github: 'https://github.com/Anderboi/CSS_tutorial',
+    link: 'https://anderboi.github.io/CSS_tutorial/',
+    description_ru:
+      'Учебный проект по верстке. Практиковал умение применять flex-box и абсолютное позиционирование, а так же SCSS.',
+    description:
+      'Educational project on web site layout. Practice using flex-box, absolute positioning and also SCSS.',
   },
 ]
 
