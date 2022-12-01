@@ -5,7 +5,6 @@ import {
   SiCss3,
   SiReact,
   SiRedux,
-  SiMaterialui,
   SiTypescript,
   SiJavascript,
   SiFigma,
@@ -33,7 +32,7 @@ const Experience = () => {
             <article className="skills__item">
               <SiCss3 className="skills__item__icon" />
               <div className="skills__item__desc">
-                <h4>CSS</h4>
+                <h4>CSS / SCSS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -62,13 +61,6 @@ const Experience = () => {
               <SiRedux className="skills__item__icon" />
               <div className="skills__item__desc">
                 <h4>Redux</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills__item">
-              <SiMaterialui className="skills__item__icon" />
-              <div className="skills__item__desc">
-                <h4>MUI</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
