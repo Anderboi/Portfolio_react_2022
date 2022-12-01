@@ -21,13 +21,16 @@
 .portfolio__item__image {
   border-radius: 1rem;
   overflow: hidden;
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
 }
 
 .portfolio__item__chips{
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  padding: 1rem 0 0;
+  padding:  0 0 1rem;
 }
 
 .portfolio__item__header {

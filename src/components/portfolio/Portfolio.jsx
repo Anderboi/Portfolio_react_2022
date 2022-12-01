@@ -3,6 +3,8 @@ import './portfolio.css'
 import PIMG01 from '../../assets/controla01.jpg'
 import PIMG02 from '../../assets/todo01.jpg'
 import PIMG03 from '../../assets/social_media.jpg'
+import PIMG04 from '../../assets/brooke-cagle--uHVRvDr7pg-unsplash.jpg'
+import PIMG05 from '../../assets/css.jpg'
 import Pill from '../base/pill/pill'
 
 const projects = [
@@ -54,21 +56,21 @@ const projects = [
   },
   {
     id: 4,
-    image: PIMG03,
-    stack: ['HTML', 'CSS', 'JS', 'TS', 'React', 'Redux', 'Ajax'],
-    title: "'Samurai' social network",
-    github: 'https://github.com/Anderboi/react_social',
-    link: 'https://anderboi.github.io/react_social/',
+    image: PIMG04,
+    stack: ['HTML', 'CSS', 'JS', 'Bootstrap'],
+    title: 'Students datatable',
+    github: 'https://github.com/Anderboi/students-table',
+    link: 'https://anderboi.github.io/students-table/',
     description_ru:
-      'Учебный проект по React. Небольшая социальная сеть. Функционал не весь, но больше чем в самом курсе.Сам дописывал логику добавления друзей, обмена сообщениями.',
+      'Учебный проект по JavaScript. CRUD таблица с формой и поиском. Практиковал работу с DOM.',
     description:
-      'React training project. A small social network. The functionality is not all, but more than in the course itself. I implemented the logic of adding friends and messaging.',
+      'JavaScript learning project. CRUD table with form and search. Practiced working with DOM.',
   },
   {
     id: 5,
-    image: PIMG03,
+    image: PIMG05,
     stack: ['HTML', 'CSS / SCSS'],
-    title: "CSS Crash Course",
+    title: 'CSS Crash Course',
     github: 'https://github.com/Anderboi/CSS_tutorial',
     link: 'https://anderboi.github.io/CSS_tutorial/',
     description_ru:
@@ -89,16 +91,19 @@ const Portfolio = () => {
           ({id, title, image, description, github, link, stack}) => {
             return (
               <article key={id} className='portfolio__item'>
-                <div className='portfolio__item__image'>
-                  <img src={image} alt={`portfolio ${id}`} />
-                </div>
+                <img
+                  className='portfolio__item__image'
+                  src={image}
+                  alt={`portfolio ${id}`}
+                />
+
+                <h3 className='portfolio__item__header'>{title}</h3>
+                <p className='portfolio__item__description'>{description}</p>
                 <div className='portfolio__item__chips'>
                   {stack.map((tech, idx) => {
                     return <Pill key={idx}>{tech}</Pill>
                   })}
                 </div>
-                <h3 className='portfolio__item__header'>{title}</h3>
-                <p className='portfolio__item__description'>{description}</p>
                 <div className='portfolio__item__button-block'>
                   <a href={github} className='btn' target='_blanc'>
                     Github
