@@ -1,0 +1,10 @@
+.pill {
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1em;
+	color: var(--color-bg-variant);
+	background-color: var(--color-primary);
+	width: fit-content;
+	padding: .4em 1em;
+	border-radius: 2em;
+}

@@ -9,6 +9,8 @@
   padding: 2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio__item:hover {
@@ -21,17 +23,23 @@
   overflow: hidden;
 }
 
+.portfolio__item__chips{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0 0;
+}
+
 .portfolio__item__header {
   font-size: 2.4rem;
   margin: 1rem 0 0;
-  /* text-align: end; */
 }
 
 .portfolio__item__description {
   font-size: 1.4rem;
   color: var(--color-light);
   font-weight: 300;
-  /* text-align: end; */
+  flex-grow: 1;
   margin: 0 0 2rem;
 }
 
