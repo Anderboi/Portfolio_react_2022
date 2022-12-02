@@ -21,8 +21,8 @@
 .portfolio__item__image {
   border-radius: 1rem;
   overflow: hidden;
-  width: 100%;
-  max-height: 280px;
+  max-width: 100%;
+  height: 260px;
   object-fit: cover;
 }
 

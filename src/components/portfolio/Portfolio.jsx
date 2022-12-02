@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import PIMG01 from '../../assets/controla01.jpg'
+import PIMG01 from '../../assets/controlapp.jpg'
 import PIMG02 from '../../assets/todo01.jpg'
 import PIMG03 from '../../assets/social_media.jpg'
 import PIMG04 from '../../assets/brooke-cagle--uHVRvDr7pg-unsplash.jpg'
@@ -13,22 +13,19 @@ const projects = [
     image: PIMG01,
     stack: [
       'HTML',
-      'CSS',
+      'CSS / SCSS',
       'JS',
       'TS',
       'React',
-      'Redux',
-      'React Hook Form',
-      'MUI',
-      'Firebase',
+      'Next',
     ],
-    title: 'ControlApp',
-    github: 'https://github.com/Anderboi/controla-notnext',
-    link: 'https://anderboi.github.io/controla-notnext/#/projects',
+    title: 'Controla',
+    github: 'https://github.com/Anderboi/tech-spec-app',
+    link: 'https://controla.vercel.app/projectsPage',
     description_ru:
-      'Приложение авторского надзора. Пэт-проект, ведения журнала авторского надзора для архитекторов / дизайнеров. Делается на React, с применением Firebase (авторизация, база данных), TS, MUI, React hook forms.',
+      'Приложение управления проектами для архитекторов и дизанеров интерьера. Пэт-проект. Делается на Next. В процессе. Так же, свой дизайн.',
     description:
-      "Application of author's supervision. Pet Project, maintaining a journal of author's supervision for architects / designers. It is done in React, using Firebase (authorization, database), TS, MUI, React hook forms.",
+      "Project management app for architects and interior designers. Pet Project. Developing on 'Next'. In progress. Own design.",
   },
   {
     id: 2,
