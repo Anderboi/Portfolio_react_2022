@@ -31,13 +31,13 @@ const projects = [
     id: 2,
     image: PIMG02,
     stack: ['HTML', 'CSS', 'JS', 'TS', 'React'],
-    title: 'ToDoApp on js',
+    title: 'To-Do App',
     github: 'https://github.com/Anderboi/mb-todo-app',
     link: 'https://anderboi.github.io/mb-todo-app/',
     description_ru:
-      'ToDo приложение, сделанное как тестовое задание для MindBox, по ТЗ и макету. Сделано на React, с применением typescript, classnames(npm) и добавлением небольшого количества тестов.',
+      'To-Do приложение, сделанное как тестовое задание для MindBox, по ТЗ и макету. Сделано на React, с применением typescript, classnames(npm) и добавлением небольшого количества тестов.',
     description:
-      'ToDo application, made as a test task for MindBox, on specification and layout. Made in React, using typescript, classnames(npm) and adding a small number of tests.',
+      'To-Do application, made as a test task for MindBox, on specification and layout. Made in React, using typescript, classnames(npm) and adding a small number of tests.',
   },
   {
     id: 3,

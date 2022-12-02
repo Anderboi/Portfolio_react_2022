@@ -1,5 +1,5 @@
-import React from "react";
-import "./experience.css";
+import React from 'react'
+import './experience.css'
 import {
   SiHtml5,
   SiCss3,
@@ -10,86 +10,91 @@ import {
   SiFigma,
   SiAdobephotoshop,
   SiFirebase,
-} from "react-icons/si";
+} from 'react-icons/si'
+
+const stack = [
+  {
+    id: 1,
+    name: 'HTML',
+    icon: <SiHtml5 className='skills__item__icon' />,
+    proficiency: 'Intermediate',
+  },
+  {
+    id: 2,
+    name: 'CSS',
+    icon: <SiCss3 className='skills__item__icon' />,
+    proficiency: 'Intermediate',
+  },
+  {
+    id: 3,
+    name: 'JavaScript',
+    icon: <SiJavascript className='skills__item__icon' />,
+    proficiency: 'Intermediate',
+  },
+  {
+    id: 4,
+    name: 'TypeScript',
+    icon: <SiTypescript className='skills__item__icon' />,
+    proficiency: 'Beginer',
+  },
+  {
+    id: 5,
+    name: 'React',
+    icon: <SiReact className='skills__item__icon' />,
+    proficiency: 'Intermediate',
+  },
+  {
+    id: 6,
+    name: 'Redux',
+    icon: <SiRedux className='skills__item__icon' />,
+    proficiency: 'Intermediate',
+  },
+  {
+    id: 7,
+    name: 'Firebase',
+    icon: <SiFirebase className='skills__item__icon' />,
+    proficiency: 'Intermediate',
+  },
+  {
+    id: 7,
+    name: 'Figma',
+    icon: <SiFigma className='skills__item__icon' />,
+    proficiency: 'Experienced',
+  },
+  {
+    id: 7,
+    name: 'Photoshop',
+    icon: <SiAdobephotoshop className='skills__item__icon' />,
+    proficiency: 'Experienced',
+  },
+]
 
 const Experience = () => {
   return (
-    <section id="experience" className="section">
-      <h5 className="sub-subheader">What Skills I Have</h5>
-      <h2 className="subheader">My Stack</h2>
+    <section id='experience' className='section'>
+      <h5 className='sub-subheader'>What Skills I Have</h5>
+      <h2 className='subheader'>My Stack</h2>
 
-      <div className="container experience">
-        <div className="experience__frontend">
-          <h3 className="experience__frontend__header">Fronend Development</h3>
-          <div className="skills">
-            <article className="skills__item">
-              <SiHtml5 className="skills__item__icon" />
-              <div className="skills__item__desc">
-                <h4>HTML</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills__item">
-              <SiCss3 className="skills__item__icon" />
-              <div className="skills__item__desc">
-                <h4>CSS / SCSS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills__item">
-              <SiJavascript className="skills__item__icon" />
-              <div className="skills__item__desc">
-                <h4>JavaScript</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills__item">
-              <SiTypescript className="skills__item__icon" />
-              <div className="skills__item__desc">
-                <h4>TypeScript</h4>
-                <small className="text-light">Beginer</small>
-              </div>
-            </article>
-            <article className="skills__item">
-              <SiReact className="skills__item__icon" />
-              <div className="skills__item__desc">
-                <h4>React</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills__item">
-              <SiRedux className="skills__item__icon" />
-              <div className="skills__item__desc">
-                <h4>Redux</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills__item">
-              <SiFirebase className="skills__item__icon" />
-              <div className="skills__item__desc">
-                <h4>Firebase</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills__item">
-              <SiFigma className="skills__item__icon" />
-              <div className="skills__item__desc">
-                <h4>Figma</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="skills__item">
-              <SiAdobephotoshop className="skills__item__icon"/>
-              <div className="skills__item__desc">
-                <h4>Photoshop</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
+      <div className='container experience'>
+        <div className='experience__frontend'>
+          <h3 className='experience__frontend__header'>Fronend Development</h3>
+          <div className='skills'>
+            {stack.map((tech) => {
+              return (
+                <article key={tech.id} className='skills__item'>
+                  {tech.icon}
+                  <div className='skills__item__desc'>
+                    <h4>{tech.name}</h4>
+                    <small className='text-light'>{tech.proficiency}</small>
+                  </div>
+                </article>
+              )
+            })}
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Experience;
+export default Experience
