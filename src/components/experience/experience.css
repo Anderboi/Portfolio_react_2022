@@ -30,9 +30,10 @@
 }
 
 .skills__item {
+  margin-left: 2rem;
   display: flex;
   gap: 2rem;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 

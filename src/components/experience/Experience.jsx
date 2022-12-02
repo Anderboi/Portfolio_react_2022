@@ -10,6 +10,7 @@ import {
   SiFigma,
   SiAdobephotoshop,
   SiFirebase,
+  SiNextdotjs,
 } from 'react-icons/si'
 
 const stack = [
@@ -51,18 +52,24 @@ const stack = [
   },
   {
     id: 7,
+    name: 'Next js',
+    icon: <SiNextdotjs className='skills__item__icon' />,
+    proficiency: 'Beginer',
+  },
+  {
+    id: 8,
     name: 'Firebase',
     icon: <SiFirebase className='skills__item__icon' />,
     proficiency: 'Intermediate',
   },
   {
-    id: 7,
+    id: 9,
     name: 'Figma',
     icon: <SiFigma className='skills__item__icon' />,
     proficiency: 'Experienced',
   },
   {
-    id: 7,
+    id: 10,
     name: 'Photoshop',
     icon: <SiAdobephotoshop className='skills__item__icon' />,
     proficiency: 'Experienced',
