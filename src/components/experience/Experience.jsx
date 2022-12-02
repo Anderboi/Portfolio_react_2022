@@ -1,5 +1,6 @@
 import React from 'react'
 import './experience.css'
+import { StackItem } from './StackItem'
 import {
   SiHtml5,
   SiCss3,
@@ -87,15 +88,7 @@ const Experience = () => {
           <h3 className='experience__frontend__header'>Fronend Development</h3>
           <div className='skills'>
             {stack.map((tech) => {
-              return (
-                <article key={tech.id} className='skills__item'>
-                  {tech.icon}
-                  <div className='skills__item__desc'>
-                    <h4>{tech.name}</h4>
-                    <small className='text-light'>{tech.proficiency}</small>
-                  </div>
-                </article>
-              )
+              return <StackItem key={tech.id} tech={tech}></StackItem>
             })}
           </div>
         </div>
