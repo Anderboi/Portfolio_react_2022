@@ -32,18 +32,16 @@ const About = () => {
             </div>
           </div>
           <p className="about__content__text">
-            My goal is to become a frontend developer as soon as possible, to
-            work remotely and enjoy my activities. <br />
-            And of course, save the planet and so on.<br/>
+            I'm an frontend developer with design background. <br />
+
             <br />
             <strong>Strengths:</strong> perseverance, stress resistance, focus
             on results. <br />
             <br />
             Ability to work both in a team and independently. Find answers to
             any question (Google and knowledge of English helps). <br />
-            <br />I have no development experience. I am an architect with more
-            than 10 years of experience. I designed buildings and structures. I
-            became an interior designer. <br />
+            <br />I have no development experience. I am an architect and interior designer with more
+            than 10 years of experience. <br />
             <br />
             In 2019 , I enrolled in the course "Game Project Management . I have
             studied many interesting and new disciplines, what prompted me to
@@ -66,7 +64,7 @@ const About = () => {
               </a>
             </strong>
             . <br />I am currently taking the
-            <strong>{` RSSchool (from EPAM)`}</strong> course. <br />
+            <strong>{` RSSchool `}</strong> course. <br />
             <br />I devote 3-5 hours a day for learning. I strive to look for
             up-to-date information (for example, I started with studying redux,
             but also reviewed the redux toolkit, used bootstrap and MUI. I've
