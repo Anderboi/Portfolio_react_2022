@@ -32,7 +32,7 @@ const About = () => {
             </div>
           </div>
           <p className="about__content__text">
-            I'm an frontend developer with design background. <br />
+            I'm an frontend developer with artistic background and technical mindset. <br />
 
             <br />
             <strong>Strengths:</strong> perseverance, stress resistance, focus
@@ -42,6 +42,7 @@ const About = () => {
             any question (Google and knowledge of English helps). <br />
             <br />I have no development experience. I am an architect and interior designer with more
             than 10 years of experience. <br />
+            But I've always had a passion for programming.<br/>
             <br />
             In 2019 , I enrolled in the course "Game Project Management . I have
             studied many interesting and new disciplines, what prompted me to
