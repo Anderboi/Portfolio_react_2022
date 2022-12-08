@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio_react_2022/static/css/main.b26c5504.css",
-    "main.js": "/Portfolio_react_2022/static/js/main.239dc10d.js",
-    "static/media/CV_en_22.pdf": "/Portfolio_react_2022/static/media/CV_en_22.f43b02beb41b0bccc44d.pdf",
-    "static/media/CV_ru_22.pdf": "/Portfolio_react_2022/static/media/CV_ru_22.c2dcb8b4320c287d0266.pdf",
+    "main.js": "/Portfolio_react_2022/static/js/main.6b10b2ec.js",
+    "static/media/CV_en_22.pdf": "/Portfolio_react_2022/static/media/CV_en_22.462169a8ed1698d2e82f.pdf",
+    "static/media/CV_ru_22.pdf": "/Portfolio_react_2022/static/media/CV_ru_22.948bea55d28f4bff9122.pdf",
     "static/media/brooke-cagle--uHVRvDr7pg-unsplash.jpg": "/Portfolio_react_2022/static/media/brooke-cagle--uHVRvDr7pg-unsplash.6712cab3be1fe3d5d1bf.jpg",
     "static/media/css.jpg": "/Portfolio_react_2022/static/media/css.7b7a45bbab3cfdac354a.jpg",
     "static/media/portrait.png": "/Portfolio_react_2022/static/media/portrait.10ee68bd430777416944.png",
@@ -13,10 +13,10 @@
     "static/media/todo01.jpg": "/Portfolio_react_2022/static/media/todo01.708b1764f163bc35950e.jpg",
     "index.html": "/Portfolio_react_2022/index.html",
     "main.b26c5504.css.map": "/Portfolio_react_2022/static/css/main.b26c5504.css.map",
-    "main.239dc10d.js.map": "/Portfolio_react_2022/static/js/main.239dc10d.js.map"
+    "main.6b10b2ec.js.map": "/Portfolio_react_2022/static/js/main.6b10b2ec.js.map"
   },
   "entrypoints": [
     "static/css/main.b26c5504.css",
-    "static/js/main.239dc10d.js"
+    "static/js/main.6b10b2ec.js"
   ]
 }
