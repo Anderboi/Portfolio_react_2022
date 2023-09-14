@@ -9,6 +9,8 @@ import {
   SiFigma,
   SiAdobephotoshop,
   SiFirebase,
+  SiTailwindcss,
+  SiSupabase,
 } from "react-icons/si";
 import {IoLogoSass} from 'react-icons/io';
 
@@ -71,11 +73,18 @@ const Experience = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            
+
             <article className="skills__item">
-              <SiFirebase className="skills__item__icon" />
+              <SiTailwindcss className="skills__item__icon" />
               <div className="skills__item__desc">
-                <h4>Firebase</h4>
+                <h4>Tailwind</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="skills__item">
+              <SiSupabase className="skills__item__icon" />
+              <div className="skills__item__desc">
+                <h4>Supabase</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -87,7 +96,7 @@ const Experience = () => {
               </div>
             </article>
             <article className="skills__item">
-              <SiAdobephotoshop className="skills__item__icon"/>
+              <SiAdobephotoshop className="skills__item__icon" />
               <div className="skills__item__desc">
                 <h4>Photoshop</h4>
                 <small className="text-light">Experienced</small>

@@ -34,7 +34,6 @@ const About = () => {
             I have knowledge in various disciplines and, hopefully, I'll bring
             my vision to development. It's always useful to look at things from
             anther point of view.
-            
             <br />
             <br />
             <strong>Strengths:</strong> perseverance, stress resistance, focus
@@ -69,10 +68,6 @@ const About = () => {
             </strong>
             . <br />I am currently taking the
             <strong>{` RSSchool (from EPAM)`}</strong> course. <br />
-            <br />I devote 3-5 hours a day for learning. I strive to look for
-            up-to-date information (for example, I started with studying redux,
-            but also reviewed the redux toolkit, used bootstrap and MUI. I've
-            been working on BEM lately).
           </p>
           <a href="#contacts" className="btn btn-primary">
             Let's discuss
