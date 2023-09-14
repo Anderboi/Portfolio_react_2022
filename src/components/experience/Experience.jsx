@@ -8,10 +8,11 @@ import {
   SiJavascript,
   SiFigma,
   SiAdobephotoshop,
-  SiFirebase,
   SiTailwindcss,
   SiSupabase,
 } from "react-icons/si";
+
+import { TbBrandNextjs } from "react-icons/tb";
 import {IoLogoSass} from 'react-icons/io';
 
 const Experience = () => {
@@ -67,9 +68,16 @@ const Experience = () => {
               </div>
             </article>
             <article className="skills__item">
+              <TbBrandNextjs className="skills__item__icon" />
+              <div className="skills__item__desc">
+                <h4>Next JS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="skills__item">
               <SiRedux className="skills__item__icon" />
               <div className="skills__item__desc">
-                <h4>Redux</h4>
+                <h4>Redux/Zustand</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
