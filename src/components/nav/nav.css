@@ -19,6 +19,7 @@
   padding: 1.4rem;
   font-size: 2.4rem;
   color: var(--color-light);
+  cursor: pointer;
 }
 
 .active {

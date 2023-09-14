@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import "./contact.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { SiWhatsapp } from "react-icons/si";
 import { FaTelegramPlane } from "react-icons/fa";

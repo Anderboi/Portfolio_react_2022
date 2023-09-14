@@ -1,5 +1,4 @@
 import React from "react";
-import "./portfolio.css";
 import PIMG01 from "../../assets/controla01.jpg";
 import PIMG02 from "../../assets/todo01.jpg";
 import PIMG03 from "../../assets/social_media.jpg";
@@ -7,6 +6,17 @@ import PIMG03 from "../../assets/social_media.jpg";
 const projects = [
   {
     id: 1,
+    image: PIMG01,
+    title: "Controla",
+    github: "https://github.com/Anderboi/Controla_2023/tree/main",
+    link: "https://controla-amber.vercel.app",
+    description_ru:
+      "Приложение авторского надзора. Пэт-проект, ведения журнала авторского надзора для архитекторов / дизайнеров. Делается на Next js, с применением Supabase (авторизация, база данных), TS, Tailwind, Zustand, React hook forms.",
+    description:
+      "Application for interior project management. Pet Project, maintaining a journal of author's supervision and project manegement for designers. It is done with Next js, using Supabase for authorization and database, TS, Tailwind, Zustand, React hook forms.",
+  },
+  {
+    id: 2,
     image: PIMG01,
     title: "ControlApp",
     github: "https://github.com/Anderboi/controla-notnext",
@@ -17,7 +27,7 @@ const projects = [
       "Application of author's supervision. Pet Project, maintaining a journal of author's supervision for architects / designers. It is done in React, using Firebase (authorization, database), TS, MUI, React hook forms.",
   },
   {
-    id: 2,
+    id: 3,
     image: PIMG02,
     title: "ToDoApp on js",
     github: "https://github.com/Anderboi/mb-todo-app",
@@ -28,7 +38,7 @@ const projects = [
       "ToDo application, made as a test task for MindBox, on specification and layout. Made in React, using typescript, classnames(npm) and adding a small number of tests.",
   },
   {
-    id: 3,
+    id: 4,
     image: PIMG03,
     title: "'Samurai' social network",
     github: "https://github.com/Anderboi/react_social",

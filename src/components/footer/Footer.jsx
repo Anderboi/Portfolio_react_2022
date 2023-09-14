@@ -1,6 +1,6 @@
 import React from "react";
-import "./footer.css";
 import { IoLogoFacebook, IoLogoTwitter } from "react-icons/io";
+import {SiCodewars,SiGithub} from 'react-icons/si';
 
 const Footer = () => {
   return (
@@ -41,6 +41,12 @@ const Footer = () => {
           </a>
           <a className="footer__link footer__logo" href="https://twitter.com/Anderboi21">
             <IoLogoTwitter />
+          </a>
+          <a className="footer__link footer__logo" href="https://www.codewars.com/users/rsschool_6a0f166d799f3ed3">
+            <SiCodewars />
+          </a>
+          <a className="footer__link footer__logo" href="https://github.com/Anderboi">
+            <SiGithub />
           </a>
         </div>
         <div className="footer__copyright">

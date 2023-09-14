@@ -1,17 +1,16 @@
 import React from "react";
-import "./experience.css";
 import {
   SiHtml5,
   SiCss3,
   SiReact,
   SiRedux,
-  SiMaterialui,
   SiTypescript,
   SiJavascript,
   SiFigma,
   SiAdobephotoshop,
   SiFirebase,
 } from "react-icons/si";
+import {IoLogoSass} from 'react-icons/io';
 
 const Experience = () => {
   return (
@@ -34,6 +33,13 @@ const Experience = () => {
               <SiCss3 className="skills__item__icon" />
               <div className="skills__item__desc">
                 <h4>CSS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="skills__item">
+              <IoLogoSass className="skills__item__icon" />
+              <div className="skills__item__desc">
+                <h4>Sass</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -65,13 +71,7 @@ const Experience = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="skills__item">
-              <SiMaterialui className="skills__item__icon" />
-              <div className="skills__item__desc">
-                <h4>MUI</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
+            
             <article className="skills__item">
               <SiFirebase className="skills__item__icon" />
               <div className="skills__item__desc">

@@ -1,5 +1,4 @@
 import React from "react";
-import "./about.css";
 import Portrait from "../../assets/portrait.png";
 import { IoLanguage } from "react-icons/io5";
 
@@ -32,12 +31,15 @@ const About = () => {
             </div>
           </div>
           <p className="about__content__text">
-            My goal is to become a frontend developer as soon as possible, to
-            work remotely and enjoy my activities. <br />
-            And of course, save the planet and so on.<br/>
+            I have knowledge in various disciplines and, hopefully, I'll bring
+            my vision to development. It's always useful to look at things from
+            anther point of view.
+            
+            <br />
             <br />
             <strong>Strengths:</strong> perseverance, stress resistance, focus
             on results. <br />
+            Constant desire, and eagerness to further develop my skillset.<br/>
             <br />
             Ability to work both in a team and independently. Find answers to
             any question (Google and knowledge of English helps). <br />
