@@ -2,10 +2,22 @@ import React from "react";
 import PIMG01 from "../../assets/controla01.jpg";
 import PIMG02 from "../../assets/todo01.jpg";
 import PIMG03 from "../../assets/social_media.jpg";
+import PIMG04 from "../../assets/Controla2.jpg";
 
 const projects = [
   {
     id: 1,
+    image: PIMG04,
+    title: "Controla 2.0",
+    github: "https://github.com/Anderboi/controla-24",
+    link: "https://controla-24-flr9jxssi-anderbois-projects.vercel.app",
+    description_ru:
+      "Controla — это современное веб-приложение для упрощения процесса составления брифов. Созданное с использованием Next.js, Tailwind CSS, Supabase, Clerk и других передовых технологий, Controla предлагает многоступенчатую форму с подсказками, позволяя пользователям легко заполнять брифы и скачивать их в формате PDF. Надежная авторизация и управление данными обеспечивают безопасный и удобный опыт.",
+    description:
+      "Controla is a web app built with Next.js, Tailwind CSS, Supabase, Clerk, Shadcn UI, React Hook Form, and Zod. It streamlines the briefing process with a multi-step form featuring helpful prompts. Users can fill out detailed briefs and download them in PDF format. The app integrates Clerk for user authentication and Supabase for database management, ensuring secure and efficient user data handling. Controla enhances productivity with its intuitive design and robust form validation.",
+  },
+  {
+    id: 2,
     image: PIMG01,
     title: "Controla",
     github: "https://github.com/Anderboi/Controla_2023/tree/main",
@@ -15,17 +27,7 @@ const projects = [
     description:
       "Application for interior project management. Pet Project, maintaining a journal of author's supervision and project manegement for designers. It is done with Next js, using Supabase for authorization and database, TS, Tailwind, Zustand, React hook forms.",
   },
-  {
-    id: 2,
-    image: PIMG01,
-    title: "ControlApp",
-    github: "https://github.com/Anderboi/controla-notnext",
-    link: "https://anderboi.github.io/controla-notnext/#/projects",
-    description_ru:
-      "Приложение авторского надзора. Пэт-проект, ведения журнала авторского надзора для архитекторов / дизайнеров. Делается на React, с применением Firebase (авторизация, база данных), TS, MUI, React hook forms.",
-    description:
-      "Application of author's supervision. Pet Project, maintaining a journal of author's supervision for architects / designers. It is done in React, using Firebase (authorization, database), TS, MUI, React hook forms.",
-  },
+
   {
     id: 3,
     image: PIMG02,

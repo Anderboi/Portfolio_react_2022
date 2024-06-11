@@ -57,7 +57,7 @@ const Experience = () => {
               <SiTypescript className="skills__item__icon" />
               <div className="skills__item__desc">
                 <h4>TypeScript</h4>
-                <small className="text-light">Beginer</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="skills__item">
